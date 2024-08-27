@@ -7,5 +7,5 @@ const collection = 'LIVRARIA';
 /* CRIAR OU ACESSAR O BANCO DE DADOS: */
 use(database);
 
-/* SELECIONA TODOS OS REGISTROS DA COLEÇAO: */
-db[collection].find()
+/* ALTERA OS DADOS DE UM DOCUMENTO DA COLLECTION */
+db[collection].updateOne();
