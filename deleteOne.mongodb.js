@@ -7,4 +7,6 @@ const collection = 'LIVRARIA';
 /* CRIAR OU ACESSAR O BANCO DE DADOS: */
 use(database);
 
-db[collection].find({"autor":"Isaac Asimov"});
+db[collection].deleteOne(
+    {codigo:'9'}
+);
